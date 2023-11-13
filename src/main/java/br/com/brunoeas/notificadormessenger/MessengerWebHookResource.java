@@ -22,7 +22,7 @@ import org.eclipse.microprofile.rest.client.inject.RestClient;
 @Path("/webhook")
 @Produces(MediaType.TEXT_PLAIN)
 @Consumes(MediaType.APPLICATION_JSON)
-public class WebHookMessengerResource {
+public class MessengerWebHookResource {
 
     @RestClient
     @Inject
