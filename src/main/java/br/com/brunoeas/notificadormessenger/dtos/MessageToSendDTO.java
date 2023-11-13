@@ -7,10 +7,8 @@ import java.io.Serializable;
 
 @Builder
 @Data
-public class EnviarMensagemMessengerDTO implements Serializable {
+public class MessageToSendDTO implements Serializable {
 
-    private MessageToSendDTO message;
-
-    private RecipientDTO recipient;
+    private String text;
 
 }
